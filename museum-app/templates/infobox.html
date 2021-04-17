@@ -1,0 +1,54 @@
+{% include 'header.html' %}
+<div class="col-8" id="details">
+    {% if not data[0][20] == None and not data[0][48] == None %}
+        {% if not data[0][48] == None %}
+        <img src='{{data[0][48]}}' alt="{{data[0][48]}}" style="max-width: 800px;max-height: 800px;"/>
+        {% else %}
+        <img src='{{data[0][20]}}' alt="{{data[0][20]}}" style="max-width: 800px;max-height: 800px;"/>
+        {% endif %}
+        <h3>Labels</h3>
+        <table class="table table-hover">
+            <tbody>
+                {% for i in range(tags|length) %}
+                <tr>
+                    <td style="word-wrap: break-word;max-width: 800px;">{{tags[i]}}</td>
+                    <td style="word-wrap: break-word;max-width: 800px;">Confidence: {{conf[i]}}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% endif %}
+
+    <h3>Metadata</h3>
+    <table class="table table-hover">
+    <tbody>
+            {% for item in data %}
+            {% for i in range(item|length) %}
+            <tr>
+                <td style="word-wrap: break-word;max-width: 800px;">{{keys[i]}}</td>
+                <td style="word-wrap: break-word;max-width: 800px;">{{item[i]}}</td>
+            </tr>
+            {% endfor %}
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+</div>
+</div>
+<script src=
+    "https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js">
+</script>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+<!-- Bootstrap Date-Picker Plugin -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
+</body>
+{% include 'footer.html' %}
+</html>

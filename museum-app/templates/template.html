@@ -1,0 +1,707 @@
+<!doctype html>
+<html lang="en">
+{% include 'header.html' %}
+{% if page == "query" %}
+<h3>Search</h3>
+
+<form action="query" method = "post">
+    <label>Choose a museum repository:</label>
+    <div class="container-fluid" >
+            <select id="mySelect" style="width:300px" class="form-control" name="repository">
+                <option value="">All</option>
+                <option value="Metropolitan Museum of Art, New York, NY">Metropolitan Museum of Art</option>
+                <option value="Carnegie Museum of Art">Carnegie Museum of Art</option>
+                <option value="Minneapolis Institute of Art">Minneapolis Institute of Art</option>
+                <option value="The Museum of Modern Art">Museum of Modern Art</option>
+                <option value="Princeton University Art Museum">Princeton University Art Museum</option>
+            </select>
+            <script>
+                var temp = "{{input['repository']}}";
+                var mySelect = document.getElementById('mySelect');
+                
+                for(var i, j = 0; i = mySelect.options[j]; j++) {
+                    if(i.value == temp) {
+                        mySelect.selectedIndex = j;
+                        break;
+                    }
+                }
+            </script>
+    </div>
+    <br>
+    <p>Enter keywords into any of the input boxes below: </p>
+    <div class="container-fluid" >
+            <div class="row" >
+                <div class="col-sm">
+                    <input size="50" id = "search" class="form-control" type="text" placeholder="Search for object id" name = "objectid" value = "{{input['objectid']}}">
+                </div>
+                <div class="col-sm">
+                    <input size="50" id = "search" class="form-control" type="text" placeholder="Search for object number" name = "objectnumber" value = "{{input['objectnumber']}}">
+                </div>
+                <div class="col-sm">
+                    <input size="50" id = "search" class="form-control" type="text" placeholder="Search for title" name = "title" value = "{{input['title']}}">
+                </div>
+                <div class="col-sm">
+                    <input size="50" id = "search" class="form-control" type="text" placeholder="Search for time period" name = "timeperiod" value = "{{input['timeperiod']}}">
+                </div>
+                <div class="col-sm">
+                    <input size="50" id = "search" class="form-control" type="text" placeholder="Search for culture" name = "culture" value = "{{input['culture']}}">
+                </div>
+                <div class="col-sm">
+                    <input size="50" id = "search" class="form-control" type="text" placeholder="Search for artist" name = "artistdisplayname" value = "{{input['artistdisplayname']}}">
+                </div>
+            </div>
+            <div class="row" >
+                <div class="col-sm">
+                    <input size="50" id = "search" class="form-control" type="text" placeholder="Search for accession year" name = "accessionyear" value = "{{input['accessionyear']}}">
+                </div>
+                <div class="col-sm">
+                    <input size="50" id = "search" class="form-control" type="text" placeholder="Search for department" name = "department" value = "{{input['department']}}">
+                </div>
+                <div class="col-sm">
+                    <input size="50" id = "search" class="form-control" type="text" placeholder="Search for tags" name = "tags" value = "{{input['tags']}}">
+                </div>
+                
+                <div class="col-sm">
+                    <input size="50" id = "search" class="form-control" type="text" placeholder="Search for medium" name = "medium" value = "{{input['medium']}}">
+                </div>
+                <div class="col-sm">
+                    <input size="50" id = "search" class="form-control" type="text" placeholder="Search for classification" name = "classification" value = "{{input['classification']}}">
+                </div>
+                <div class="col-sm">
+                    <input size="50" id = "search" class="form-control" type="text" placeholder="Search for artist nationality" name = "artistnationality" value = "{{input['artistnationality']}}">
+                </div>
+            </div>
+            <br>
+            <button class="btn btn-outline-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                Advanced Filters
+            </button>
+            <div class="collapse" id="collapseExample">
+                
+                <div class="row" >
+                    
+                    <div class="col-sm">
+                        <input size="50" id = "search" class="form-control" type="text" placeholder="Search for city" name = "city" value = "{{input['city']}}">
+                    </div>
+                    <div class="col-sm">
+                        <input size="50" id = "search" class="form-control" type="text" placeholder="Search for country" name = "country" value = "{{input['country']}}">
+                    </div>
+                    <div class="col-sm">
+                        <input size="50" id = "search" class="form-control" type="text" placeholder="Search for description" name = "artworkdescription" value = "{{input['artworkdescription']}}">
+                    </div>
+                    <div class="col-sm">
+                        <input size="50" id = "search" class="form-control" type="text" placeholder="Search for artwork date" name = "artworkdate" value = "{{input['artworkdate']}}">
+                    </div>
+                    <div class="col-sm">
+                        <input size="50" id = "search" class="form-control" type="text" placeholder="Search for date begin" name = "datebegin" value = "{{input['datebegin']}}">
+                    </div>
+                    <div class="col-sm">
+                        <input size="50" id = "search" class="form-control" type="text" placeholder="Search for date end" name = "dateend" value = "{{input['dateend']}}">
+                    </div>
+                    
+                </div>
+                
+                <div class="row" >
+                    <div class="col-sm">
+                        <input size="50" id = "search" class="form-control" type="text" placeholder="Search for accession date" name = "accessiondate" value = "{{input['accessiondate']}}">
+                    </div>
+                    <div class="col-sm">
+                        <input size="50" id = "search" class="form-control" type="text" placeholder="Search for accession number" name = "accessionnumber" value = "{{input['accessionnumber']}}">
+                    </div>
+                    <div class="col-sm">
+                        <input size="50" id = "search" class="form-control" type="text" placeholder="Search for imageurl" name = "imageurl" value = "{{input['imageurl']}}">
+                    </div>
+                    <div class="col-sm">
+                        <input size="50" id = "search" class="form-control" type="text" placeholder="Search for inscription" name = "inscription" value = "{{input['inscription']}}">
+                    </div>
+                    <div class="col-sm">
+                        <input size="50" id = "search" class="form-control" type="text" placeholder="Search for markings" name = "markings" value = "{{input['markings']}}">
+                    </div>
+                    <div class="col-sm">
+                        <input size="50" id = "search" class="form-control" type="text" placeholder="Search for dimensions" name = "dimensions" value = "{{input['dimensions']}}">
+                    </div>
+                </div>
+                <div class="row" >
+                    
+                    <div class="col-sm">
+                        <input size="50" id = "search" class="form-control" type="text" placeholder="Search for artist id" name = "artistid" value = "{{input['artistid']}}">
+                    </div>
+                    
+                    <div class="col-sm">
+                        <input size="50" id = "search" class="form-control" type="text" placeholder="Search for artist prefix" name = "artistprefix" value = "{{input['artistprefix']}}">
+                    </div>
+                    <div class="col-sm">
+                        <input size="50" id = "search" class="form-control" type="text" placeholder="Search for artist suffix" name = "artistsuffix" value = "{{input['artistsuffix']}}">
+                    </div>
+                    <div class="col-sm">
+                        <input size="50" id = "search" class="form-control" type="text" placeholder="Search for nationality" name = "nationality" value = "{{input['nationality']}}">
+                    </div>
+                    <div class="col-sm">
+                        <input size="50" id = "search" class="form-control" type="text" placeholder="Search for artist birth date" name = "artistbegindate" value = "{{input['artistbegindate']}}">
+                    </div>
+                    <div class="col-sm">
+                        <input size="50" id = "search" class="form-control" type="text" placeholder="Search for artist death date" name = "artistenddate" value = "{{input['artistenddate']}}">
+                    </div>
+                </div>
+                
+                <div class="row" >
+                    <div class="col-sm">
+                        <input size="50" id = "search" class="form-control" type="text" placeholder="Search for artist gender" name = "artistgender" value = "{{input['artistgender']}}">
+                    </div>
+                    <div class="col-sm">
+                        <input size="50" id = "search" class="form-control" type="text" placeholder="Search for artist role" name = "artistrole" value = "{{input['artistrole']}}">
+                    </div>
+                    <div class="col-sm">
+                        <input size="50" id = "search" class="form-control" type="text" placeholder="Search for artist bio" name = "artistbio" value = "{{input['artistbio']}}">
+                    </div>
+                    <div class="col-sm">
+                        <input size="50" id = "search" class="form-control" type="text" placeholder="Search for artist ulan url" name = "artistulanurl" value = "{{input['artistulanurl']}}">
+                    </div>
+                    <div class="col-sm">
+                        <input size="50" id = "search" class="form-control" type="text" placeholder="Search for artist wikidata url" name = "artistwikidataurl" value = "{{input['artistwikidataurl']}}">
+                    </div>
+                    <div class="col-sm">
+                        <input size="50" id = "search" class="form-control" type="text" placeholder="Search for object wikidata url" name = "objectwikidataurl" value = "{{input['objectwikidataurl']}}">
+                    </div>
+                </div>
+                
+                <div class="row" >
+                    <div class="col-sm">
+                        <input size="50" id = "search" class="form-control" type="text" placeholder="Search for tags aat url" name = "tagsaaturl" value = "{{input['tagsaaturl']}}">
+                    </div>
+                    <div class="col-sm">
+                        <input size="50" id = "search" class="form-control" type="text" placeholder="Search for credit line" name = "creditline" value = "{{input['creditline']}}">
+                    </div>
+                    <div class="col-sm">
+                        <input size="50" id = "search" class="form-control" type="text" placeholder="Search for tags wikidata url" name = "tagswikidataurl" value = "{{input['tagswikidataurl']}}">
+                    </div>
+                    <div class="col-sm">
+                        <input size="50" id = "search" class="form-control" type="text" placeholder="Search for artwork url" name = "artworkurl" value = "{{input['artworkurl']}}">
+                    </div>
+                    <div class="col-sm">
+                        <input size="50" id = "search" class="form-control" type="text" placeholder="Search for rights and reproduction" name = "rightsandreproduction" value = "{{input['rightsandreproduction']}}">
+                    </div>
+                    <div class="col-sm">
+                        <input size="50" id = "search" class="form-control" type="text" placeholder="Search for gallery" name = "gallery" value = "{{input['gallery']}}">
+                    </div>
+                </div>
+            
+                <div class="row" >
+                    <div class="col-sm">
+                        <input size="50" id = "search" class="form-control" type="text" placeholder="Search for artist birth place" name = "artistbirthplace" value = "{{input['artistbirthplace']}}">
+                    </div>
+                    <div class="col-sm">
+                        <input size="50" id = "search" class="form-control" type="text" placeholder="Search for artist death place" name = "artistdeathplace" value = "{{input['artistdeathplace']}}">
+                    </div>
+                    <div class="col-sm">
+                        <input size="50" id = "search" class="form-control" type="text" placeholder="Search for continent" name = "continent" value = "{{input['continent']}}">
+                    </div>
+                    <div class="col-sm">
+                        <input size="50" id = "search" class="form-control" type="text" placeholder="Search for longitude" name = "longitude" value = "{{input['longitude']}}">
+                    </div>
+                    <div class="col-sm">
+                        <input size="50" id = "search" class="form-control" type="text" placeholder="Search for latitude" name = "latitude" value = "{{input['latitude']}}">
+                    </div>
+                    <div class="col-sm">
+                        <input size="50" id = "search" class="form-control" type="text" placeholder="Search for AWS S3 image URL" name = "s3url" value = "{{input['s3url']}}">
+                    </div>
+                </div>
+            </div>
+            <div class="row" >
+                <div class="col-sm">
+                    <button size="50" id = "search" type="submit" class="btn btn-primary">Search</button>
+                </div>
+            </div>
+        </div>
+</form>
+<br>
+<div class="container-fluid" id="details">
+    <h3>{{data|length}} Artworks Found</h3>
+    <p>Please note that if the number of results is greater than 1000, only the first 1000 will be returned.</p>
+    <p>Click on object IDs for more information about an artwork.</p>
+    <table class="table table-hover">
+        <thead><tr>
+            {% for key in keys %}
+            <th style="word-wrap: break-word;max-width: 250px;">{{key}}</th>
+            {% endfor %}
+          </tr>
+          </thead>
+      <tbody>
+          {% for item in data %}
+          <tr>
+              {% for i in range(item|length) %}
+                {% if i ==0 %}
+                  <td style="word-wrap: break-word;max-width: 150px;"><a href = "infobox?objectid={{item[0]}}&repository={{item[18]}}">{{item[i]}}</a></td>
+                {% else %}
+                  <td style="word-wrap: break-word;max-width: 150px;">{{item[i]}}</td>
+                {% endif %}
+              {% endfor %}
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+{% endif %}
+<div class="container-fluid">
+{% if page == "image" %}
+<h3>Find Similar Asian Artworks</h3>
+<form method="POST" action="/image" enctype="multipart/form-data">
+<label for="file">Choose an image:</label>
+<select name="file", value="{{input['file']}}">
+    {% for test_image in test_images %}
+        <option value={{test_image}}>{{test_image}}</option>
+    {% endfor %}
+</select>
+<br>
+<label for="count">Enter the number of similar images to display (0 to 1999):</label>
+
+<input type="number" name="count" value="{{input['count']}}">
+<p><input type="submit" value="Submit"></p>
+</form>
+{% if hasimage %}
+<br>
+<div>
+    <h3>Query Image</h3>
+    <a href="/infobox?objectid={{uploaded_image[15:-9]}}&repository={{uploaded_image[-8:-4]}}"><img style="max-width:500px; max-height=500px;" src="https://museum-image.s3.amazonaws.com/{{uploaded_image}}"/>
+    </a>
+</div>
+{% endif %}
+{% if hasimage %}
+<br>
+<div>
+    <h3>Similar Images</h3>
+    <p>Click on an image for more information</p>
+    {%for image in imagelist %}
+
+    <a href="/infobox?objectid={{image[15:-9]}}&repository={{image[-8:-4]}}"><img style="max-width:200px; max-height=200px;" src="https://museum-image.s3.amazonaws.com/{{image}}"/>
+    </a>
+    {%endfor%}
+</div>
+
+{% endif %}
+{% endif %}
+</div>
+{% if page == "dataset" %}
+<div class="container-fluid">
+  <h3>Datasets</h3>
+  <p>This project utilizes five museum datasets:</p>
+  <table>
+    <thead>
+        <tr>
+            <th>Museum</th>
+            <th>Access point</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Metropolitan Museum of Art</td>
+            <td><a href = "https://github.com/metmuseum/openaccess">https://github.com/metmuseum/openaccess</a></td>
+        </tr>
+        <tr>
+            <td>Carnegie Museum of Art</td>
+            <td><a href = "https://github.com/cmoa/collection">https://github.com/cmoa/collection</a></td>
+        </tr>
+        <tr>
+            <td>Museum of Modern Art</td>
+            <td><a href = "https://github.com/MuseumofModernArt/collection">https://github.com/MuseumofModernArt/collection</a></td>
+        </tr>
+        <tr>
+            <td>Minneapolis Institute of Art</td>
+            <td><a href = "https://github.com/artsmia/collection">https://github.com/artsmia/collection</a></td>
+        </tr>
+        <tr>
+            <td>Princeton University Art Museum</td>
+            <td><a href = "https://github.com/Princeton-University-Art-Museum/puam-api-docs">https://github.com/Princeton-University-Art-Museum/puam-api-docs</a></td>
+        </tr>
+    </tbody>
+  </table>
+  <br>
+  <p>Each dataset's Asian artworks was selected into another CSV file. All Asian artwork CSV files were rectified and merged into a single master CSV file. Please find the Asian artwork CSV files below:</p>
+  <div>
+      <p>Merged Asian Artworks Dataset: <a href = "static/merged_final.zip" download>download</a></p>
+      <p>Metropolitan Museum of Art Asian Artworks Dataset: <a href = "static/met_asian.zip" download>download</a></p>
+      <p>Museum of Modern Art Asian Artworks Dataset: <a href = "static/moma_asian.zip" download>download</a></p>
+      <p>Carnegie Museum of Art Asian Artworks Dataset: <a href = "static/carnegie_asian.zip" download>download</a></p>
+      <p>Minneapolis Institute of Art Asian Artworks Dataset: <a href = "static/mia_asian.zip" download>download</a></p>
+      <p>Princeton University Art Museum Asian Artworks Dataset: <a href = "static/puam_asian.zip" download>download</a></p>
+  </div>
+</div>
+{% endif %}
+    
+{% if page == "visualize" %}
+<div class = "container-fluid">
+<center>
+    <h5>Asian Artworks Accession</h5>
+    <img style="max-width:100%; max-height=100%;" src="static/plots/total_accession_by_museum.jpg"/>
+    <h5>Asian Artworks Cumulative Accession</h5>
+    <img style="max-width:100%; max-height=100%;" src="static/plots/total_cumulative_accession_by_museum.jpg"/>
+    <h5>Asian Artworks Cumulative Accession By Museum</h5>
+    <img style="max-width:100%; max-height=100%;" src="static/plots/total_cumulative_accession_by_museum_subplots.jpg"/>
+    <h5>Asian Artworks Culture Distribution</h5>
+    <img style="max-width:100%; max-height=100%;" src="static/plots/culture_by_museum_subplots.jpg"/>
+    <h5>Asian Artworks Artist Distribution</h5>
+    <img style="max-width:100%; max-height=100%;" src="static/plots/artists_by_museum_subplots.jpg"/>
+    <h5>Asian Artworks Classification Distribution</h5>
+    <img style="max-width:100%; max-height=100%;" src="static/plots/classifications_by_museum_subplots.jpg"/>
+    <h5>Museum-Artist Network Graph </h5>
+    <img style="max-width:80%; max-height=80%;" src="static/plots/artist-repo-network.png"/>
+</center>
+{% endif %}
+{% if page == "visualize_data" %}
+<h3>Visualize</h3>
+<p>Enter keywords into any of the input boxes below as constraints to the data: </p>
+<form action="visualize_data" method = "post">
+        <label>Choose a museum repository:</label>
+        <div class="container-fluid" >
+                <select id="mySelect" style="width:300px" class="form-control" name="repository">
+                    <option value="">All</option>
+                    <option value="Metropolitan Museum of Art, New York, NY">Metropolitan Museum of Art</option>
+                    <option value="Carnegie Museum of Art">Carnegie Museum of Art</option>
+                    <option value="Minneapolis Institute of Art">Minneapolis Institute of Art</option>
+                    <option value="The Museum of Modern Art">Museum of Modern Art</option>
+                    <option value="Princeton University Art Museum">Princeton University Art Museum</option>
+                </select>
+                <script>
+                    var temp = "{{input['repository']}}";
+                    var mySelect = document.getElementById('mySelect');
+                    
+                    for(var i, j = 0; i = mySelect.options[j]; j++) {
+                        if(i.value == temp) {
+                            mySelect.selectedIndex = j;
+                            break;
+                        }
+                    }
+                </script>
+        </div>
+        <br>
+        <p>Enter keywords into any of the input boxes below: </p>
+        <div class="container-fluid" >
+                <div class="row" >
+                    <div class="col-sm">
+                        <input size="50" id = "search" class="form-control" type="text" placeholder="Search for object id" name = "objectid" value = "{{input['objectid']}}">
+                    </div>
+                    <div class="col-sm">
+                        <input size="50" id = "search" class="form-control" type="text" placeholder="Search for object number" name = "objectnumber" value = "{{input['objectnumber']}}">
+                    </div>
+                    <div class="col-sm">
+                        <input size="50" id = "search" class="form-control" type="text" placeholder="Search for title" name = "title" value = "{{input['title']}}">
+                    </div>
+                    <div class="col-sm">
+                        <input size="50" id = "search" class="form-control" type="text" placeholder="Search for time period" name = "timeperiod" value = "{{input['timeperiod']}}">
+                    </div>
+                    <div class="col-sm">
+                        <input size="50" id = "search" class="form-control" type="text" placeholder="Search for culture" name = "culture" value = "{{input['culture']}}">
+                    </div>
+                    <div class="col-sm">
+                        <input size="50" id = "search" class="form-control" type="text" placeholder="Search for artist" name = "artistdisplayname" value = "{{input['artistdisplayname']}}">
+                    </div>
+                </div>
+                <div class="row" >
+                    <div class="col-sm">
+                        <input size="50" id = "search" class="form-control" type="text" placeholder="Search for accession year" name = "accessionyear" value = "{{input['accessionyear']}}">
+                    </div>
+                    <div class="col-sm">
+                        <input size="50" id = "search" class="form-control" type="text" placeholder="Search for department" name = "department" value = "{{input['department']}}">
+                    </div>
+                    <div class="col-sm">
+                        <input size="50" id = "search" class="form-control" type="text" placeholder="Search for tags" name = "tags" value = "{{input['tags']}}">
+                    </div>
+                    
+                    <div class="col-sm">
+                        <input size="50" id = "search" class="form-control" type="text" placeholder="Search for medium" name = "medium" value = "{{input['medium']}}">
+                    </div>
+                    <div class="col-sm">
+                        <input size="50" id = "search" class="form-control" type="text" placeholder="Search for classification" name = "classification" value = "{{input['classification']}}">
+                    </div>
+                    <div class="col-sm">
+                        <input size="50" id = "search" class="form-control" type="text" placeholder="Search for artist nationality" name = "artistnationality" value = "{{input['artistnationality']}}">
+                    </div>
+                </div>
+                <br>
+                <button class="btn btn-outline-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    Advanced Filters
+                </button>
+                <div class="collapse" id="collapseExample">
+                    
+                    <div class="row" >
+                        
+                        <div class="col-sm">
+                            <input size="50" id = "search" class="form-control" type="text" placeholder="Search for city" name = "city" value = "{{input['city']}}">
+                        </div>
+                        <div class="col-sm">
+                            <input size="50" id = "search" class="form-control" type="text" placeholder="Search for country" name = "country" value = "{{input['country']}}">
+                        </div>
+                        <div class="col-sm">
+                            <input size="50" id = "search" class="form-control" type="text" placeholder="Search for description" name = "artworkdescription" value = "{{input['artworkdescription']}}">
+                        </div>
+                        <div class="col-sm">
+                            <input size="50" id = "search" class="form-control" type="text" placeholder="Search for artwork date" name = "artworkdate" value = "{{input['artworkdate']}}">
+                        </div>
+                        <div class="col-sm">
+                            <input size="50" id = "search" class="form-control" type="text" placeholder="Search for date begin" name = "datebegin" value = "{{input['datebegin']}}">
+                        </div>
+                        <div class="col-sm">
+                            <input size="50" id = "search" class="form-control" type="text" placeholder="Search for date end" name = "dateend" value = "{{input['dateend']}}">
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="row" >
+                        <div class="col-sm">
+                            <input size="50" id = "search" class="form-control" type="text" placeholder="Search for accession date" name = "accessiondate" value = "{{input['accessiondate']}}">
+                        </div>
+                        <div class="col-sm">
+                            <input size="50" id = "search" class="form-control" type="text" placeholder="Search for accession number" name = "accessionnumber" value = "{{input['accessionnumber']}}">
+                        </div>
+                        <div class="col-sm">
+                            <input size="50" id = "search" class="form-control" type="text" placeholder="Search for imageurl" name = "imageurl" value = "{{input['imageurl']}}">
+                        </div>
+                        <div class="col-sm">
+                            <input size="50" id = "search" class="form-control" type="text" placeholder="Search for inscription" name = "inscription" value = "{{input['inscription']}}">
+                        </div>
+                        <div class="col-sm">
+                            <input size="50" id = "search" class="form-control" type="text" placeholder="Search for markings" name = "markings" value = "{{input['markings']}}">
+                        </div>
+                        <div class="col-sm">
+                            <input size="50" id = "search" class="form-control" type="text" placeholder="Search for dimensions" name = "dimensions" value = "{{input['dimensions']}}">
+                        </div>
+                    </div>
+                    <div class="row" >
+                        
+                        <div class="col-sm">
+                            <input size="50" id = "search" class="form-control" type="text" placeholder="Search for artist id" name = "artistid" value = "{{input['artistid']}}">
+                        </div>
+                        
+                        <div class="col-sm">
+                            <input size="50" id = "search" class="form-control" type="text" placeholder="Search for artist prefix" name = "artistprefix" value = "{{input['artistprefix']}}">
+                        </div>
+                        <div class="col-sm">
+                            <input size="50" id = "search" class="form-control" type="text" placeholder="Search for artist suffix" name = "artistsuffix" value = "{{input['artistsuffix']}}">
+                        </div>
+                        <div class="col-sm">
+                            <input size="50" id = "search" class="form-control" type="text" placeholder="Search for nationality" name = "nationality" value = "{{input['nationality']}}">
+                        </div>
+                        <div class="col-sm">
+                            <input size="50" id = "search" class="form-control" type="text" placeholder="Search for artist birth date" name = "artistbegindate" value = "{{input['artistbegindate']}}">
+                        </div>
+                        <div class="col-sm">
+                            <input size="50" id = "search" class="form-control" type="text" placeholder="Search for artist death date" name = "artistenddate" value = "{{input['artistenddate']}}">
+                        </div>
+                    </div>
+                    
+                    <div class="row" >
+                        <div class="col-sm">
+                            <input size="50" id = "search" class="form-control" type="text" placeholder="Search for artist gender" name = "artistgender" value = "{{input['artistgender']}}">
+                        </div>
+                        <div class="col-sm">
+                            <input size="50" id = "search" class="form-control" type="text" placeholder="Search for artist role" name = "artistrole" value = "{{input['artistrole']}}">
+                        </div>
+                        <div class="col-sm">
+                            <input size="50" id = "search" class="form-control" type="text" placeholder="Search for artist bio" name = "artistbio" value = "{{input['artistbio']}}">
+                        </div>
+                        <div class="col-sm">
+                            <input size="50" id = "search" class="form-control" type="text" placeholder="Search for artist ulan url" name = "artistulanurl" value = "{{input['artistulanurl']}}">
+                        </div>
+                        <div class="col-sm">
+                            <input size="50" id = "search" class="form-control" type="text" placeholder="Search for artist wikidata url" name = "artistwikidataurl" value = "{{input['artistwikidataurl']}}">
+                        </div>
+                        <div class="col-sm">
+                            <input size="50" id = "search" class="form-control" type="text" placeholder="Search for object wikidata url" name = "objectwikidataurl" value = "{{input['objectwikidataurl']}}">
+                        </div>
+                    </div>
+                    
+                    <div class="row" >
+                        <div class="col-sm">
+                            <input size="50" id = "search" class="form-control" type="text" placeholder="Search for tags aat url" name = "tagsaaturl" value = "{{input['tagsaaturl']}}">
+                        </div>
+                        <div class="col-sm">
+                            <input size="50" id = "search" class="form-control" type="text" placeholder="Search for credit line" name = "creditline" value = "{{input['creditline']}}">
+                        </div>
+                        <div class="col-sm">
+                            <input size="50" id = "search" class="form-control" type="text" placeholder="Search for tags wikidata url" name = "tagswikidataurl" value = "{{input['tagswikidataurl']}}">
+                        </div>
+                        <div class="col-sm">
+                            <input size="50" id = "search" class="form-control" type="text" placeholder="Search for artwork url" name = "artworkurl" value = "{{input['artworkurl']}}">
+                        </div>
+                        <div class="col-sm">
+                            <input size="50" id = "search" class="form-control" type="text" placeholder="Search for rights and reproduction" name = "rightsandreproduction" value = "{{input['rightsandreproduction']}}">
+                        </div>
+                        <div class="col-sm">
+                            <input size="50" id = "search" class="form-control" type="text" placeholder="Search for gallery" name = "gallery" value = "{{input['gallery']}}">
+                        </div>
+                    </div>
+                
+                    <div class="row" >
+                        <div class="col-sm">
+                            <input size="50" id = "search" class="form-control" type="text" placeholder="Search for artist birth place" name = "artistbirthplace" value = "{{input['artistbirthplace']}}">
+                        </div>
+                        <div class="col-sm">
+                            <input size="50" id = "search" class="form-control" type="text" placeholder="Search for artist death place" name = "artistdeathplace" value = "{{input['artistdeathplace']}}">
+                        </div>
+                        <div class="col-sm">
+                            <input size="50" id = "search" class="form-control" type="text" placeholder="Search for continent" name = "continent" value = "{{input['continent']}}">
+                        </div>
+                        <div class="col-sm">
+                            <input size="50" id = "search" class="form-control" type="text" placeholder="Search for longitude" name = "longitude" value = "{{input['longitude']}}">
+                        </div>
+                        <div class="col-sm">
+                            <input size="50" id = "search" class="form-control" type="text" placeholder="Search for latitude" name = "latitude" value = "{{input['latitude']}}">
+                        </div>
+                        <div class="col-sm">
+                            <input size="50" id = "search" class="form-control" type="text" placeholder="Search for AWS S3 image URL" name = "s3url" value = "{{input['s3url']}}">
+                        </div>
+                    </div>
+                </div>
+                <div class="row" >
+                    <div class="col-sm">
+                        <button size="50" id = "search" type="submit" class="btn btn-primary">Search</button>
+                    </div>
+                </div>
+            </div>
+</form>
+{% endif %}
+{% if page == "about" %}
+<div class="container-fluid">
+<h3>Statistical Analysis and Unsupervised Clustering of Asian Art in American Museums</h3>
+<h6>Jenny Sheng</h6>
+<h6>Princeton University Class of 2022</h6>
+<h6>Advised by Professor Brian Kernighan</h6>
+<p>Within the past five years, there has been an increased interest in the idea of collections as data. Collections as data is this concept of treating cultural heritage collections as datasets that can also be examined statistically and computationally. This is part of a movement to expand the spheres of cultural heritage analysis from careful scrutinization to large scale computation and research. In response to this idea, museums have also made much effort in making their collections database publicly available in bulk. For instance, the Getty adopted an Open Content Program in order to make their artwork images available to researchers. Numerous other museums have started to make their data be open access to the public under the Creative Common Zero license (CC0).</p>
+<p>However, as these changes take place and museum collections become increasingly accessible, there have been surprisingly few efforts and attempts to examine these data together as a whole. Museums represent the cultural landscapes of the world. They are not only windows into the past and present, but also tell interesting tales of curatorial trends, public interest in specific spheres of art, cultural representation, provenance representation, etc. Yet, none of these trends can be confidently examined just by considering one specific collection. There is definitely more to the story when all these disparate museum collections are merged together to create a more holistic view.</p>
+<p>The goal of our project is to examine the intersection of the Asian art sphere between different museums, and find commonalities and differences across disparate museum collections in order to gain a better understanding of the Asian art collection in the United States. This goal is achieved in two steps. First, through rectification and merging of museum metadata, we aim to explore statistical relationships between museum object acquisition across the curatorial landscape. Second, through exploration of museum images, we aim to cluster images and explore the visual similarities of artworks across datasets. Furthermore, a subsidiary goal of this project is to design a process for rectifying museum collections that can be used for reference in future works related to the intersectionality of museum collections. We examine the following five museum datasets: Princeton University Art Museum, The Metropolitan Museum of Art, Modern Museum of Art, Carnegie Museum of Art, and Minneapolis Institution of Art. </p>
+<p>This project is a Spring 2021 independent work. Special thanks to Professor Brian Kernighan, Dr. Zoe LeBlanc, Vivien Nguyen, and my classmates in IW06 seminar for their help and support throughout this independent work.</p>
+<p>Please find the details of this project at <a href="https://github.com/jsheng112/asian-art-in-american-museums">https://github.com/jsheng112/asian-art-in-american-museums</a></p>
+
+</div>
+{% endif %}
+{% if page == "visualize_data" %}
+{% if culture_values|length > 0 %}
+<center>
+        <h3>Culture Distribution</h3>
+        <p>Please note that if an artwork falls under multiple cultures (for instance, if it was created by artists of different cultures), it will be counted in both cultures. </p>
+        
+        <canvas id="culture" width="800" height="600"></canvas>
+        <script>
+            var artData = {
+                label: 'Artwork Counts',
+                data: {{culture_values | tojson}},
+                backgroundColor: "rgba(151,187,205,0.8)",
+            };
+            
+            var data= {
+                type:"bar",
+                data: {
+                    labels: {{culture_labels | tojson}},
+                    datasets: [artData]
+                },
+                options: {
+                    responsive: false
+                }
+            };
+            // Get the context of the canvas element we want to select
+            var countries= document.getElementById("culture").getContext("2d");
+            new Chart(countries, data);
+        </script>
+</center>
+<br>
+<br>
+{% endif %}
+{% if year_values|length > 0 %}
+<center>
+        <h3>Accession Year Distribution</h3>
+
+        <canvas id="accessionyear" width="800" height="600"></canvas>
+        <script>
+                var artData = {
+                    label: 'Artwork Counts',
+                    data: {{year_values | tojson}},
+                    backgroundColor: "rgba(151,187,205,0.8)",
+                };
+                
+                var data= {
+                    type:"line",
+                    data: {
+                        labels: {{year_labels | tojson}},
+                        datasets: [artData]
+                    },
+                    options: {
+                        responsive: false
+                    }
+                };
+                // Get the context of the canvas element we want to select
+                var countries= document.getElementById("accessionyear").getContext("2d");
+                new Chart(countries, data);
+        </script>
+</center>
+<br>
+<br>
+{% endif %}
+{% if artist_values|length > 0 %}
+<center>
+        <h3>Artist Distribution</h3>
+
+        <canvas id="artist" width="800" height="600"></canvas>
+        <script>
+                var artData = {
+                    label: 'Artwork Counts',
+                    data: {{artist_values | tojson}},
+                    backgroundColor: "rgba(151,187,205,0.8)",
+                };
+                
+                var data= {
+                    type:"bar",
+                    data: {
+                        labels: {{artist_labels | tojson}},
+                        datasets: [artData]
+                    },
+                    options: {
+                        responsive: false
+                    }
+                };
+                // Get the context of the canvas element we want to select
+                var countries= document.getElementById("artist").getContext("2d");
+                new Chart(countries, data);
+        </script>
+</center>
+<br>
+<br>
+{% endif %}
+{% if classification_values|length > 0 %}
+<center>
+        <h3>Classification Distribution</h3>
+
+        <canvas id="class_graph" width="800" height="600"></canvas>
+        <script>
+                var artData = {
+                    label: 'Artwork Counts',
+                    data: {{classification_values | tojson}},
+                    backgroundColor: "rgba(151,187,205,0.8)",
+                };
+                
+                var data= {
+                    type:"bar",
+                    data: {
+                        labels: {{classification_labels| tojson}},
+                        datasets: [artData]
+                    },
+                    options: {
+                        responsive: false
+                    }
+                };
+                // Get the context of the canvas element we want to select
+                var countries= document.getElementById("class_graph").getContext("2d");
+                new Chart(countries, data);
+        </script>
+</center>
+{% endif %}
+</div>
+{% endif %}
+<script>
+  
+</script>
+<script src=
+    "https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js">
+     
+});
+  </script>
+{% include 'footer.html' %}
+</html>

@@ -1,0 +1,250 @@
+name,alpha-2,alpha-3,country-code,iso_3166-2,region,sub-region,intermediate-region,region-code,sub-region-code,intermediate-region-code,nationality,latitude,longitude
+Afghanistan,AF,AFG,4,ISO 3166-2:AF,Asia,Southern Asia,,142.0,34.0,,Afghan,33.93911,67.709953
+Åland Islands,AX,ALA,248,ISO 3166-2:AX,Europe,Northern Europe,,150.0,154.0,,Åland Island,,
+Albania,AL,ALB,8,ISO 3166-2:AL,Europe,Southern Europe,,150.0,39.0,,Albanian,41.153332,20.168331
+Algeria,DZ,DZA,12,ISO 3166-2:DZ,Africa,Northern Africa,,2.0,15.0,,Algerian,28.033886,1.6596259999999998
+American Samoa,AS,ASM,16,ISO 3166-2:AS,Oceania,Polynesia,,9.0,61.0,,American Samoan,-14.270972,-170.132217
+Andorra,AD,AND,20,ISO 3166-2:AD,Europe,Southern Europe,,150.0,39.0,,Andorran,42.546245,1.6015540000000001
+Angola,AO,AGO,24,ISO 3166-2:AO,Africa,Sub-Saharan Africa,Middle Africa,2.0,202.0,17.0,Angolan,-11.202691999999999,17.873887
+Anguilla,AI,AIA,660,ISO 3166-2:AI,Americas,Latin America and the Caribbean,Caribbean,19.0,419.0,29.0,Anguillan,18.220554,-63.068615
+Antarctica,AQ,ATA,10,ISO 3166-2:AQ,,,,,,,Antarctic,-75.250973,-0.071389
+Antigua and Barbuda,AG,ATG,28,ISO 3166-2:AG,Americas,Latin America and the Caribbean,Caribbean,19.0,419.0,29.0,Antiguan or Barbudan,17.060816,-61.796428000000006
+Argentina,AR,ARG,32,ISO 3166-2:AR,Americas,Latin America and the Caribbean,South America,19.0,419.0,5.0,Argentine,-38.416097,-63.616671999999994
+Armenia,AM,ARM,51,ISO 3166-2:AM,Asia,Western Asia,,142.0,145.0,,Armenian,40.069099,45.038189
+Aruba,AW,ABW,533,ISO 3166-2:AW,Americas,Latin America and the Caribbean,Caribbean,19.0,419.0,29.0,Aruban,12.52111,-69.968338
+Australia,AU,AUS,36,ISO 3166-2:AU,Oceania,Australia and New Zealand,,9.0,53.0,,Australian,-25.274398,133.775136
+Austria,AT,AUT,40,ISO 3166-2:AT,Europe,Western Europe,,150.0,155.0,,Austrian,47.516231,14.550072
+Azerbaijan,AZ,AZE,31,ISO 3166-2:AZ,Asia,Western Asia,,142.0,145.0,,"Azerbaijani, Azeri",40.143105,47.576927000000005
+Bahamas,BS,BHS,44,ISO 3166-2:BS,Americas,Latin America and the Caribbean,Caribbean,19.0,419.0,29.0,Bahamian,25.03428,-77.39628
+Bahrain,BH,BHR,48,ISO 3166-2:BH,Asia,Western Asia,,142.0,145.0,,Bahraini,25.930414000000003,50.637772
+Bangladesh,BD,BGD,50,ISO 3166-2:BD,Asia,Southern Asia,,142.0,34.0,,Bangladeshi,23.684994,90.35633100000001
+Barbados,BB,BRB,52,ISO 3166-2:BB,Americas,Latin America and the Caribbean,Caribbean,19.0,419.0,29.0,Barbadian,13.193887,-59.543198
+Belarus,BY,BLR,112,ISO 3166-2:BY,Europe,Eastern Europe,,150.0,151.0,,Belarusian,53.709807,27.953389
+Belgium,BE,BEL,56,ISO 3166-2:BE,Europe,Western Europe,,150.0,155.0,,Belgian,50.503887,4.469936
+Belize,BZ,BLZ,84,ISO 3166-2:BZ,Americas,Latin America and the Caribbean,Central America,19.0,419.0,13.0,Belizean,17.189877,-88.49765
+Benin,BJ,BEN,204,ISO 3166-2:BJ,Africa,Sub-Saharan Africa,Western Africa,2.0,202.0,11.0,"Beninese, Beninois",9.30769,2.315834
+Bermuda,BM,BMU,60,ISO 3166-2:BM,Americas,Northern America,,19.0,21.0,,"Bermudian, Bermudan",32.321384,-64.75737
+Bhutan,BT,BTN,64,ISO 3166-2:BT,Asia,Southern Asia,,142.0,34.0,,Bhutanese,27.514162,90.433601
+Bolivia (Plurinational State of),BO,BOL,68,ISO 3166-2:BO,Americas,Latin America and the Caribbean,South America,19.0,419.0,5.0,Bolivian,-16.290154,-63.588653
+"Bonaire, Sint Eustatius and Saba",BQ,BES,535,ISO 3166-2:BQ,Americas,Latin America and the Caribbean,Caribbean,19.0,419.0,29.0,Bonaire,,
+Bosnia and Herzegovina,BA,BIH,70,ISO 3166-2:BA,Europe,Southern Europe,,150.0,39.0,,Bosnian or Herzegovinian,43.915886,17.679076000000002
+Botswana,BW,BWA,72,ISO 3166-2:BW,Africa,Sub-Saharan Africa,Southern Africa,2.0,202.0,18.0,"Motswana, Botswanan",-22.328474,24.684866
+Bouvet Island,BV,BVT,74,ISO 3166-2:BV,Americas,Latin America and the Caribbean,South America,19.0,419.0,5.0,Bouvet Island,-54.423199,3.4131940000000003
+Brazil,BR,BRA,76,ISO 3166-2:BR,Americas,Latin America and the Caribbean,South America,19.0,419.0,5.0,Brazilian,-14.235004,-51.92528
+British Indian Ocean Territory,IO,IOT,86,ISO 3166-2:IO,Africa,Sub-Saharan Africa,Eastern Africa,2.0,202.0,14.0,BIOT,-6.343194,71.87651899999999
+Brunei Darussalam,BN,BRN,96,ISO 3166-2:BN,Asia,South-eastern Asia,,142.0,35.0,,Bruneian,4.535277,114.72766899999999
+Bulgaria,BG,BGR,100,ISO 3166-2:BG,Europe,Eastern Europe,,150.0,151.0,,Bulgarian,42.733883,25.48583
+Burkina Faso,BF,BFA,854,ISO 3166-2:BF,Africa,Sub-Saharan Africa,Western Africa,2.0,202.0,11.0,Burkinabé,12.238333,-1.561593
+Burundi,BI,BDI,108,ISO 3166-2:BI,Africa,Sub-Saharan Africa,Eastern Africa,2.0,202.0,14.0,Burundian,-3.3730559999999996,29.918885999999997
+Cabo Verde,CV,CPV,132,ISO 3166-2:CV,Africa,Sub-Saharan Africa,Western Africa,2.0,202.0,11.0,Cabo Verdean,16.002082,-24.013197
+Cambodia,KH,KHM,116,ISO 3166-2:KH,Asia,South-eastern Asia,,142.0,35.0,,Cambodian,12.565679,104.990963
+Cameroon,CM,CMR,120,ISO 3166-2:CM,Africa,Sub-Saharan Africa,Middle Africa,2.0,202.0,17.0,Cameroonian,7.369722,12.354722
+Canada,CA,CAN,124,ISO 3166-2:CA,Americas,Northern America,,19.0,21.0,,Canadian,56.130366,-106.34677099999999
+Cayman Islands,KY,CYM,136,ISO 3166-2:KY,Americas,Latin America and the Caribbean,Caribbean,19.0,419.0,29.0,Caymanian,19.513469,-80.566956
+Central African Republic,CF,CAF,140,ISO 3166-2:CF,Africa,Sub-Saharan Africa,Middle Africa,2.0,202.0,17.0,Central African,6.611111,20.939444
+Chad,TD,TCD,148,ISO 3166-2:TD,Africa,Sub-Saharan Africa,Middle Africa,2.0,202.0,17.0,Chadian,15.454166,18.732207
+Chile,CL,CHL,152,ISO 3166-2:CL,Americas,Latin America and the Caribbean,South America,19.0,419.0,5.0,Chilean,-35.675146999999996,-71.542969
+China,CN,CHN,156,ISO 3166-2:CN,Asia,Eastern Asia,,142.0,30.0,,Chinese,35.86166,104.195397
+Christmas Island,CX,CXR,162,ISO 3166-2:CX,Oceania,Australia and New Zealand,,9.0,53.0,,Christmas Island,-10.447525,105.690449
+Cocos (Keeling) Islands,CC,CCK,166,ISO 3166-2:CC,Oceania,Australia and New Zealand,,9.0,53.0,,Cocos Island,-12.164164999999999,96.870956
+Colombia,CO,COL,170,ISO 3166-2:CO,Americas,Latin America and the Caribbean,South America,19.0,419.0,5.0,Colombian,4.570868,-74.297333
+Comoros,KM,COM,174,ISO 3166-2:KM,Africa,Sub-Saharan Africa,Eastern Africa,2.0,202.0,14.0,"Comoran, Comorian",-11.875001,43.872219
+Congo,CG,COG,178,ISO 3166-2:CG,Africa,Sub-Saharan Africa,Middle Africa,2.0,202.0,17.0,Congolese,-0.228021,15.827658999999999
+"Congo, Democratic Republic of the",CD,COD,180,ISO 3166-2:CD,Africa,Sub-Saharan Africa,Middle Africa,2.0,202.0,17.0,Congolese,-4.038333000000001,21.758664000000003
+Cook Islands,CK,COK,184,ISO 3166-2:CK,Oceania,Polynesia,,9.0,61.0,,Cook Island,-21.236735999999997,-159.777671
+Costa Rica,CR,CRI,188,ISO 3166-2:CR,Americas,Latin America and the Caribbean,Central America,19.0,419.0,13.0,Costa Rican,9.748917,-83.753428
+Côte d'Ivoire,CI,CIV,384,ISO 3166-2:CI,Africa,Sub-Saharan Africa,Western Africa,2.0,202.0,11.0,Ivorian,7.539989,-5.54708
+Croatia,HR,HRV,191,ISO 3166-2:HR,Europe,Southern Europe,,150.0,39.0,,Croatian,45.1,15.2
+Cuba,CU,CUB,192,ISO 3166-2:CU,Americas,Latin America and the Caribbean,Caribbean,19.0,419.0,29.0,Cuban,21.521757,-77.78116700000001
+Curaçao,CW,CUW,531,ISO 3166-2:CW,Americas,Latin America and the Caribbean,Caribbean,19.0,419.0,29.0,Curaçaoan,,
+Cyprus,CY,CYP,196,ISO 3166-2:CY,Asia,Western Asia,,142.0,145.0,,Cypriot,35.126413,33.429859
+Czechia,CZ,CZE,203,ISO 3166-2:CZ,Europe,Eastern Europe,,150.0,151.0,,Czech,49.817492,15.472961999999999
+Denmark,DK,DNK,208,ISO 3166-2:DK,Europe,Northern Europe,,150.0,154.0,,Danish,56.26392,9.501785
+Djibouti,DJ,DJI,262,ISO 3166-2:DJ,Africa,Sub-Saharan Africa,Eastern Africa,2.0,202.0,14.0,Djiboutian,11.825138,42.590275
+Dominica,DM,DMA,212,ISO 3166-2:DM,Americas,Latin America and the Caribbean,Caribbean,19.0,419.0,29.0,Dominican,15.414999,-61.370976
+Dominican Republic,DO,DOM,214,ISO 3166-2:DO,Americas,Latin America and the Caribbean,Caribbean,19.0,419.0,29.0,Dominican,18.735692999999998,-70.162651
+Ecuador,EC,ECU,218,ISO 3166-2:EC,Americas,Latin America and the Caribbean,South America,19.0,419.0,5.0,Ecuadorian,-1.8312389999999998,-78.183406
+Egypt,EG,EGY,818,ISO 3166-2:EG,Africa,Northern Africa,,2.0,15.0,,Egyptian,26.820553000000004,30.802497999999996
+El Salvador,SV,SLV,222,ISO 3166-2:SV,Americas,Latin America and the Caribbean,Central America,19.0,419.0,13.0,Salvadoran,13.794185,-88.89653
+Equatorial Guinea,GQ,GNQ,226,ISO 3166-2:GQ,Africa,Sub-Saharan Africa,Middle Africa,2.0,202.0,17.0,"Equatorial Guinean, Equatoguinean",1.6508009999999997,10.267895
+Eritrea,ER,ERI,232,ISO 3166-2:ER,Africa,Sub-Saharan Africa,Eastern Africa,2.0,202.0,14.0,Eritrean,15.179383999999999,39.782334000000006
+Estonia,EE,EST,233,ISO 3166-2:EE,Europe,Northern Europe,,150.0,154.0,,Estonian,58.595271999999994,25.013607
+Eswatini,SZ,SWZ,748,ISO 3166-2:SZ,Africa,Sub-Saharan Africa,Southern Africa,2.0,202.0,18.0,Swazi,-26.522503000000004,31.465866
+Ethiopia,ET,ETH,231,ISO 3166-2:ET,Africa,Sub-Saharan Africa,Eastern Africa,2.0,202.0,14.0,Ethiopian,9.145,40.489672999999996
+Falkland Islands (Malvinas),FK,FLK,238,ISO 3166-2:FK,Americas,Latin America and the Caribbean,South America,19.0,419.0,5.0,Falkland Island,-51.796253,-59.523613
+Faroe Islands,FO,FRO,234,ISO 3166-2:FO,Europe,Northern Europe,,150.0,154.0,,Faroese,61.892635,-6.9118059999999995
+Fiji,FJ,FJI,242,ISO 3166-2:FJ,Oceania,Melanesia,,9.0,54.0,,Fijian,-16.578193,179.414413
+Finland,FI,FIN,246,ISO 3166-2:FI,Europe,Northern Europe,,150.0,154.0,,Finnish,61.92411,25.748151
+France,FR,FRA,250,ISO 3166-2:FR,Europe,Western Europe,,150.0,155.0,,French,46.227638,2.213749
+French Guiana,GF,GUF,254,ISO 3166-2:GF,Americas,Latin America and the Caribbean,South America,19.0,419.0,5.0,French Guianese,3.9338889999999997,-53.125781999999994
+French Polynesia,PF,PYF,258,ISO 3166-2:PF,Oceania,Polynesia,,9.0,61.0,,French Polynesian,-17.679742,-149.40684299999998
+French Southern Territories,TF,ATF,260,ISO 3166-2:TF,Africa,Sub-Saharan Africa,Eastern Africa,2.0,202.0,14.0,French Southern Territories,-49.280366,69.348557
+Gabon,GA,GAB,266,ISO 3166-2:GA,Africa,Sub-Saharan Africa,Middle Africa,2.0,202.0,17.0,Gabonese,-0.803689,11.609444
+Gambia,GM,GMB,270,ISO 3166-2:GM,Africa,Sub-Saharan Africa,Western Africa,2.0,202.0,11.0,Gambian,13.443182,-15.310139000000001
+Georgia,GE,GEO,268,ISO 3166-2:GE,Asia,Western Asia,,142.0,145.0,,Georgian,42.315407,43.356891999999995
+Germany,DE,DEU,276,ISO 3166-2:DE,Europe,Western Europe,,150.0,155.0,,German,51.165690999999995,10.451526
+Ghana,GH,GHA,288,ISO 3166-2:GH,Africa,Sub-Saharan Africa,Western Africa,2.0,202.0,11.0,Ghanaian,7.946527000000001,-1.0231940000000002
+Gibraltar,GI,GIB,292,ISO 3166-2:GI,Europe,Southern Europe,,150.0,39.0,,Gibraltar,36.137741,-5.345374
+Greece,GR,GRC,300,ISO 3166-2:GR,Europe,Southern Europe,,150.0,39.0,,"Greek, Hellenic",39.074208,21.824312
+Greenland,GL,GRL,304,ISO 3166-2:GL,Americas,Northern America,,19.0,21.0,,Greenlandic,71.706936,-42.604303
+Grenada,GD,GRD,308,ISO 3166-2:GD,Americas,Latin America and the Caribbean,Caribbean,19.0,419.0,29.0,Grenadian,12.262775999999999,-61.604170999999994
+Guadeloupe,GP,GLP,312,ISO 3166-2:GP,Americas,Latin America and the Caribbean,Caribbean,19.0,419.0,29.0,Guadeloupe,16.995971,-62.067641
+Guam,GU,GUM,316,ISO 3166-2:GU,Oceania,Micronesia,,9.0,57.0,,"Guamanian, Guambat",13.444304,144.793731
+Guatemala,GT,GTM,320,ISO 3166-2:GT,Americas,Latin America and the Caribbean,Central America,19.0,419.0,13.0,Guatemalan,15.783470999999999,-90.23075899999999
+Guernsey,GG,GGY,831,ISO 3166-2:GG,Europe,Northern Europe,Channel Islands,150.0,154.0,830.0,Channel Island,49.465691,-2.5852779999999997
+Guinea,GN,GIN,324,ISO 3166-2:GN,Africa,Sub-Saharan Africa,Western Africa,2.0,202.0,11.0,Guinean,9.945587,-9.696645
+Guinea-Bissau,GW,GNB,624,ISO 3166-2:GW,Africa,Sub-Saharan Africa,Western Africa,2.0,202.0,11.0,Bissau-Guinean,11.803749,-15.180413
+Guyana,GY,GUY,328,ISO 3166-2:GY,Americas,Latin America and the Caribbean,South America,19.0,419.0,5.0,Guyanese,4.860416000000001,-58.93018000000001
+Haiti,HT,HTI,332,ISO 3166-2:HT,Americas,Latin America and the Caribbean,Caribbean,19.0,419.0,29.0,Haitian,18.971187,-72.28521500000001
+Heard Island and McDonald Islands,HM,HMD,334,ISO 3166-2:HM,Oceania,Australia and New Zealand,,9.0,53.0,,Heard Island or McDonald Islands,-53.08181,73.50415799999999
+Holy See,VA,VAT,336,ISO 3166-2:VA,Europe,Southern Europe,,150.0,39.0,,Vatican,41.902916,12.453389
+Honduras,HN,HND,340,ISO 3166-2:HN,Americas,Latin America and the Caribbean,Central America,19.0,419.0,13.0,Honduran,15.199998999999998,-86.241905
+Hong Kong,HK,HKG,344,ISO 3166-2:HK,Asia,Eastern Asia,,142.0,30.0,,"Hong Kong, Hong Kongese",22.396428,114.10949699999999
+Hungary,HU,HUN,348,ISO 3166-2:HU,Europe,Eastern Europe,,150.0,151.0,,"Hungarian, Magyar",47.162494,19.503304
+Iceland,IS,ISL,352,ISO 3166-2:IS,Europe,Northern Europe,,150.0,154.0,,Icelandic,64.96305100000001,-19.020835
+India,IN,IND,356,ISO 3166-2:IN,Asia,Southern Asia,,142.0,34.0,,Indian,20.593684,78.96288
+Indonesia,ID,IDN,360,ISO 3166-2:ID,Asia,South-eastern Asia,,142.0,35.0,,Indonesian,-0.789275,113.921327
+Iran (Islamic Republic of),IR,IRN,364,ISO 3166-2:IR,Asia,Southern Asia,,142.0,34.0,,"Iranian, Persian",32.427908,53.68804599999999
+Iraq,IQ,IRQ,368,ISO 3166-2:IQ,Asia,Western Asia,,142.0,145.0,,Iraqi,33.223191,43.679291
+Ireland,IE,IRL,372,ISO 3166-2:IE,Europe,Northern Europe,,150.0,154.0,,Irish,53.41291,-8.243889999999999
+Isle of Man,IM,IMN,833,ISO 3166-2:IM,Europe,Northern Europe,,150.0,154.0,,Manx,54.236107,-4.548056
+Israel,IL,ISR,376,ISO 3166-2:IL,Asia,Western Asia,,142.0,145.0,,Israeli,31.046051000000002,34.851612
+Italy,IT,ITA,380,ISO 3166-2:IT,Europe,Southern Europe,,150.0,39.0,,Italian,41.87194,12.56738
+Jamaica,JM,JAM,388,ISO 3166-2:JM,Americas,Latin America and the Caribbean,Caribbean,19.0,419.0,29.0,Jamaican,18.109581,-77.297508
+Japan,JP,JPN,392,ISO 3166-2:JP,Asia,Eastern Asia,,142.0,30.0,,Japanese,36.204824,138.252924
+Jersey,JE,JEY,832,ISO 3166-2:JE,Europe,Northern Europe,Channel Islands,150.0,154.0,830.0,Channel Island,49.214439,-2.13125
+Jordan,JO,JOR,400,ISO 3166-2:JO,Asia,Western Asia,,142.0,145.0,,Jordanian,30.585164000000002,36.238414
+Kazakhstan,KZ,KAZ,398,ISO 3166-2:KZ,Asia,Central Asia,,142.0,143.0,,"Kazakhstani, Kazakh",48.019573,66.923684
+Kenya,KE,KEN,404,ISO 3166-2:KE,Africa,Sub-Saharan Africa,Eastern Africa,2.0,202.0,14.0,Kenyan,-0.023559,37.906193
+Kiribati,KI,KIR,296,ISO 3166-2:KI,Oceania,Micronesia,,9.0,57.0,,I-Kiribati,-3.3704169999999998,-168.734039
+Korea (Democratic People's Republic of),KP,PRK,408,ISO 3166-2:KP,Asia,Eastern Asia,,142.0,30.0,,North Korean,40.339852,127.510093
+"Korea, Republic of",KR,KOR,410,ISO 3166-2:KR,Asia,Eastern Asia,,142.0,30.0,,South Korean,35.907757000000004,127.766922
+Kuwait,KW,KWT,414,ISO 3166-2:KW,Asia,Western Asia,,142.0,145.0,,Kuwaiti,29.311659999999996,47.481766
+Kyrgyzstan,KG,KGZ,417,ISO 3166-2:KG,Asia,Central Asia,,142.0,143.0,,"Kyrgyzstani, Kyrgyz, Kirgiz, Kirghiz",41.20438,74.766098
+Lao People's Democratic Republic,LA,LAO,418,ISO 3166-2:LA,Asia,South-eastern Asia,,142.0,35.0,,"Lao, Laotian",19.856270000000002,102.495496
+Latvia,LV,LVA,428,ISO 3166-2:LV,Europe,Northern Europe,,150.0,154.0,,Latvian,56.879635,24.603189
+Lebanon,LB,LBN,422,ISO 3166-2:LB,Asia,Western Asia,,142.0,145.0,,Lebanese,33.854721000000005,35.862285
+Lesotho,LS,LSO,426,ISO 3166-2:LS,Africa,Sub-Saharan Africa,Southern Africa,2.0,202.0,18.0,Basotho,-29.609988,28.233608
+Liberia,LR,LBR,430,ISO 3166-2:LR,Africa,Sub-Saharan Africa,Western Africa,2.0,202.0,11.0,Liberian,6.4280550000000005,-9.429499
+Libya,LY,LBY,434,ISO 3166-2:LY,Africa,Northern Africa,,2.0,15.0,,Libyan,26.3351,17.228331
+Liechtenstein,LI,LIE,438,ISO 3166-2:LI,Europe,Western Europe,,150.0,155.0,,Liechtenstein,47.166000000000004,9.555373
+Lithuania,LT,LTU,440,ISO 3166-2:LT,Europe,Northern Europe,,150.0,154.0,,Lithuanian,55.169438,23.881275
+Luxembourg,LU,LUX,442,ISO 3166-2:LU,Europe,Western Europe,,150.0,155.0,,"Luxembourg, Luxembourgish",49.815273,6.129583
+Macao,MO,MAC,446,ISO 3166-2:MO,Asia,Eastern Asia,,142.0,30.0,,"Macanese, Chinese",22.198745000000002,113.543873
+Madagascar,MG,MDG,450,ISO 3166-2:MG,Africa,Sub-Saharan Africa,Eastern Africa,2.0,202.0,14.0,Malagasy,-18.766947000000002,46.869107
+Malawi,MW,MWI,454,ISO 3166-2:MW,Africa,Sub-Saharan Africa,Eastern Africa,2.0,202.0,14.0,Malawian,-13.254307999999998,34.301525
+Malaysia,MY,MYS,458,ISO 3166-2:MY,Asia,South-eastern Asia,,142.0,35.0,,Malaysian,4.210483999999999,101.97576600000001
+Maldives,MV,MDV,462,ISO 3166-2:MV,Asia,Southern Asia,,142.0,34.0,,Maldivian,3.202778,73.22068
+Mali,ML,MLI,466,ISO 3166-2:ML,Africa,Sub-Saharan Africa,Western Africa,2.0,202.0,11.0,"Malian, Malinese",17.570692,-3.9961660000000006
+Malta,MT,MLT,470,ISO 3166-2:MT,Europe,Southern Europe,,150.0,39.0,,Maltese,35.937496,14.375416
+Marshall Islands,MH,MHL,584,ISO 3166-2:MH,Oceania,Micronesia,,9.0,57.0,,Marshallese,7.131474000000001,171.184478
+Martinique,MQ,MTQ,474,ISO 3166-2:MQ,Americas,Latin America and the Caribbean,Caribbean,19.0,419.0,29.0,"Martiniquais, Martinican",14.641528,-61.024174
+Mauritania,MR,MRT,478,ISO 3166-2:MR,Africa,Sub-Saharan Africa,Western Africa,2.0,202.0,11.0,Mauritanian,21.00789,-10.940835
+Mauritius,MU,MUS,480,ISO 3166-2:MU,Africa,Sub-Saharan Africa,Eastern Africa,2.0,202.0,14.0,Mauritian,-20.348404000000002,57.552152
+Mayotte,YT,MYT,175,ISO 3166-2:YT,Africa,Sub-Saharan Africa,Eastern Africa,2.0,202.0,14.0,Mahoran,-12.8275,45.166244
+Mexico,MX,MEX,484,ISO 3166-2:MX,Americas,Latin America and the Caribbean,Central America,19.0,419.0,13.0,Mexican,23.634501,-102.552784
+Micronesia (Federated States of),FM,FSM,583,ISO 3166-2:FM,Oceania,Micronesia,,9.0,57.0,,Micronesian,7.425553999999999,150.550812
+"Moldova, Republic of",MD,MDA,498,ISO 3166-2:MD,Europe,Eastern Europe,,150.0,151.0,,Moldovan,47.411631,28.369884999999996
+Monaco,MC,MCO,492,ISO 3166-2:MC,Europe,Western Europe,,150.0,155.0,,"Monégasque, Monacan",43.750298,7.412841
+Mongolia,MN,MNG,496,ISO 3166-2:MN,Asia,Eastern Asia,,142.0,30.0,,Mongolian,46.862496,103.84665600000001
+Montenegro,ME,MNE,499,ISO 3166-2:ME,Europe,Southern Europe,,150.0,39.0,,Montenegrin,42.708678000000006,19.37439
+Montserrat,MS,MSR,500,ISO 3166-2:MS,Americas,Latin America and the Caribbean,Caribbean,19.0,419.0,29.0,Montserratian,16.742498,-62.187366000000004
+Morocco,MA,MAR,504,ISO 3166-2:MA,Africa,Northern Africa,,2.0,15.0,,Moroccan,31.791702,-7.09262
+Mozambique,MZ,MOZ,508,ISO 3166-2:MZ,Africa,Sub-Saharan Africa,Eastern Africa,2.0,202.0,14.0,Mozambican,-18.665695,35.529562
+Myanmar,MM,MMR,104,ISO 3166-2:MM,Asia,South-eastern Asia,,142.0,35.0,,Burmese,21.913965,95.956223
+Namibia,,NAM,516,ISO 3166-2:NA,Africa,Sub-Saharan Africa,Southern Africa,2.0,202.0,18.0,,,
+Nauru,NR,NRU,520,ISO 3166-2:NR,Oceania,Micronesia,,9.0,57.0,,Nauruan,-0.522778,166.931503
+Nepal,NP,NPL,524,ISO 3166-2:NP,Asia,Southern Asia,,142.0,34.0,,"Nepali, Nepalese",28.394857000000002,84.12400799999999
+Netherlands,NL,NLD,528,ISO 3166-2:NL,Europe,Western Europe,,150.0,155.0,,"Dutch, Netherlandic",52.132633,5.291266
+New Caledonia,NC,NCL,540,ISO 3166-2:NC,Oceania,Melanesia,,9.0,54.0,,New Caledonian,-20.904304999999997,165.618042
+New Zealand,NZ,NZL,554,ISO 3166-2:NZ,Oceania,Australia and New Zealand,,9.0,53.0,,"New Zealand, NZ",-40.900557,174.88597099999998
+Nicaragua,NI,NIC,558,ISO 3166-2:NI,Americas,Latin America and the Caribbean,Central America,19.0,419.0,13.0,Nicaraguan,12.865416,-85.207229
+Niger,NE,NER,562,ISO 3166-2:NE,Africa,Sub-Saharan Africa,Western Africa,2.0,202.0,11.0,Nigerien,17.607789,8.081666
+Nigeria,NG,NGA,566,ISO 3166-2:NG,Africa,Sub-Saharan Africa,Western Africa,2.0,202.0,11.0,Nigerian,9.081999,8.675277000000001
+Niue,NU,NIU,570,ISO 3166-2:NU,Oceania,Polynesia,,9.0,61.0,,Niuean,-19.054445,-169.867233
+Norfolk Island,NF,NFK,574,ISO 3166-2:NF,Oceania,Australia and New Zealand,,9.0,53.0,,Norfolk Island,-29.040834999999998,167.954712
+North Macedonia,MK,MKD,807,ISO 3166-2:MK,Europe,Southern Europe,,150.0,39.0,,Macedonian,41.608635,21.745275
+Northern Mariana Islands,MP,MNP,580,ISO 3166-2:MP,Oceania,Micronesia,,9.0,57.0,,Northern Marianan,17.33083,145.38468999999998
+Norway,NO,NOR,578,ISO 3166-2:NO,Europe,Northern Europe,,150.0,154.0,,Norwegian,60.472024,8.468946
+Oman,OM,OMN,512,ISO 3166-2:OM,Asia,Western Asia,,142.0,145.0,,Omani,21.512583,55.923255000000005
+Pakistan,PK,PAK,586,ISO 3166-2:PK,Asia,Southern Asia,,142.0,34.0,,Pakistani,30.375321000000003,69.345116
+Palau,PW,PLW,585,ISO 3166-2:PW,Oceania,Micronesia,,9.0,57.0,,Palauan,7.51498,134.58252
+"Palestine, State of",PS,PSE,275,ISO 3166-2:PS,Asia,Western Asia,,142.0,145.0,,Palestinian,31.952162,35.233154
+Panama,PA,PAN,591,ISO 3166-2:PA,Americas,Latin America and the Caribbean,Central America,19.0,419.0,13.0,Panamanian,8.537981,-80.782127
+Papua New Guinea,PG,PNG,598,ISO 3166-2:PG,Oceania,Melanesia,,9.0,54.0,,"Papua New Guinean, Papuan",-6.314993,143.95555
+Paraguay,PY,PRY,600,ISO 3166-2:PY,Americas,Latin America and the Caribbean,South America,19.0,419.0,5.0,Paraguayan,-23.442503,-58.44383199999999
+Peru,PE,PER,604,ISO 3166-2:PE,Americas,Latin America and the Caribbean,South America,19.0,419.0,5.0,Peruvian,-9.189967,-75.015152
+Philippines,PH,PHL,608,ISO 3166-2:PH,Asia,South-eastern Asia,,142.0,35.0,,"Philippine, Filipino",12.879721,121.77401699999999
+Pitcairn,PN,PCN,612,ISO 3166-2:PN,Oceania,Polynesia,,9.0,61.0,,Pitcairn Island,-24.703615,-127.43930800000001
+Poland,PL,POL,616,ISO 3166-2:PL,Europe,Eastern Europe,,150.0,151.0,,Polish,51.919438,19.145135999999997
+Portugal,PT,PRT,620,ISO 3166-2:PT,Europe,Southern Europe,,150.0,39.0,,Portuguese,39.399871999999995,-8.224454
+Puerto Rico,PR,PRI,630,ISO 3166-2:PR,Americas,Latin America and the Caribbean,Caribbean,19.0,419.0,29.0,Puerto Rican,18.220833,-66.590149
+Qatar,QA,QAT,634,ISO 3166-2:QA,Asia,Western Asia,,142.0,145.0,,Qatari,25.354826,51.183884
+Réunion,RE,REU,638,ISO 3166-2:RE,Africa,Sub-Saharan Africa,Eastern Africa,2.0,202.0,14.0,"Réunionese, Réunionnais",-21.115141,55.536384
+Romania,RO,ROU,642,ISO 3166-2:RO,Europe,Eastern Europe,,150.0,151.0,,Romanian,45.943160999999996,24.96676
+Russian Federation,RU,RUS,643,ISO 3166-2:RU,Europe,Eastern Europe,,150.0,151.0,,Russian,61.52401,105.31875600000001
+Rwanda,RW,RWA,646,ISO 3166-2:RW,Africa,Sub-Saharan Africa,Eastern Africa,2.0,202.0,14.0,Rwandan,-1.940278,29.873888
+Saint Barthélemy,BL,BLM,652,ISO 3166-2:BL,Americas,Latin America and the Caribbean,Caribbean,19.0,419.0,29.0,Barthélemois,,
+"Saint Helena, Ascension and Tristan da Cunha",SH,SHN,654,ISO 3166-2:SH,Africa,Sub-Saharan Africa,Western Africa,2.0,202.0,11.0,Saint Helenian,-24.143473999999998,-10.030696
+Saint Kitts and Nevis,KN,KNA,659,ISO 3166-2:KN,Americas,Latin America and the Caribbean,Caribbean,19.0,419.0,29.0,Kittitian or Nevisian,17.357822,-62.782998
+Saint Lucia,LC,LCA,662,ISO 3166-2:LC,Americas,Latin America and the Caribbean,Caribbean,19.0,419.0,29.0,Saint Lucian,13.909444,-60.97889300000001
+Saint Martin (French part),MF,MAF,663,ISO 3166-2:MF,Americas,Latin America and the Caribbean,Caribbean,19.0,419.0,29.0,Saint-Martinoise,,
+Saint Pierre and Miquelon,PM,SPM,666,ISO 3166-2:PM,Americas,Northern America,,19.0,21.0,,Saint-Pierrais or Miquelonnais,46.941936,-56.27111
+Saint Vincent and the Grenadines,VC,VCT,670,ISO 3166-2:VC,Americas,Latin America and the Caribbean,Caribbean,19.0,419.0,29.0,"Saint Vincentian, Vincentian",12.984305,-61.287228000000006
+Samoa,WS,WSM,882,ISO 3166-2:WS,Oceania,Polynesia,,9.0,61.0,,Samoan,-13.759029,-172.10462900000002
+San Marino,SM,SMR,674,ISO 3166-2:SM,Europe,Southern Europe,,150.0,39.0,,Sammarinese,43.94236,12.457777
+Sao Tome and Principe,ST,STP,678,ISO 3166-2:ST,Africa,Sub-Saharan Africa,Middle Africa,2.0,202.0,17.0,São Toméan,0.18636,6.613081
+Saudi Arabia,SA,SAU,682,ISO 3166-2:SA,Asia,Western Asia,,142.0,145.0,,"Saudi, Saudi Arabian",23.885942,45.079162
+Senegal,SN,SEN,686,ISO 3166-2:SN,Africa,Sub-Saharan Africa,Western Africa,2.0,202.0,11.0,Senegalese,14.497401000000002,-14.452361999999999
+Serbia,RS,SRB,688,ISO 3166-2:RS,Europe,Southern Europe,,150.0,39.0,,Serbian,44.016521000000004,21.005859
+Seychelles,SC,SYC,690,ISO 3166-2:SC,Africa,Sub-Saharan Africa,Eastern Africa,2.0,202.0,14.0,Seychellois,-4.679574,55.491977
+Sierra Leone,SL,SLE,694,ISO 3166-2:SL,Africa,Sub-Saharan Africa,Western Africa,2.0,202.0,11.0,Sierra Leonean,8.460555000000001,-11.779889
+Singapore,SG,SGP,702,ISO 3166-2:SG,Asia,South-eastern Asia,,142.0,35.0,,Singaporean,1.352083,103.819836
+Sint Maarten (Dutch part),SX,SXM,534,ISO 3166-2:SX,Americas,Latin America and the Caribbean,Caribbean,19.0,419.0,29.0,Sint Maarten,,
+Slovakia,SK,SVK,703,ISO 3166-2:SK,Europe,Eastern Europe,,150.0,151.0,,Slovak,48.669026,19.699023999999998
+Slovenia,SI,SVN,705,ISO 3166-2:SI,Europe,Southern Europe,,150.0,39.0,,"Slovenian, Slovene",46.151241,14.995463
+Solomon Islands,SB,SLB,90,ISO 3166-2:SB,Oceania,Melanesia,,9.0,54.0,,Solomon Island,-9.645710000000001,160.156194
+Somalia,SO,SOM,706,ISO 3166-2:SO,Africa,Sub-Saharan Africa,Eastern Africa,2.0,202.0,14.0,"Somali, Somalian",5.152149,46.199616
+South Africa,ZA,ZAF,710,ISO 3166-2:ZA,Africa,Sub-Saharan Africa,Southern Africa,2.0,202.0,18.0,South African,-30.559482,22.937506
+South Georgia and the South Sandwich Islands,GS,SGS,239,ISO 3166-2:GS,Americas,Latin America and the Caribbean,South America,19.0,419.0,5.0,South Georgia or South Sandwich Islands,-54.429579000000004,-36.587909
+South Sudan,SS,SSD,728,ISO 3166-2:SS,Africa,Sub-Saharan Africa,Eastern Africa,2.0,202.0,14.0,South Sudanese,,
+Spain,ES,ESP,724,ISO 3166-2:ES,Europe,Southern Europe,,150.0,39.0,,Spanish,40.463667,-3.7492199999999998
+Sri Lanka,LK,LKA,144,ISO 3166-2:LK,Asia,Southern Asia,,142.0,34.0,,Sri Lankan,7.873054,80.77179699999999
+Sudan,SD,SDN,729,ISO 3166-2:SD,Africa,Northern Africa,,2.0,15.0,,Sudanese,12.862807,30.217636
+Suriname,SR,SUR,740,ISO 3166-2:SR,Americas,Latin America and the Caribbean,South America,19.0,419.0,5.0,Surinamese,3.9193050000000005,-56.02778299999999
+Svalbard and Jan Mayen,SJ,SJM,744,ISO 3166-2:SJ,Europe,Northern Europe,,150.0,154.0,,Svalbard,77.553604,23.670272
+Sweden,SE,SWE,752,ISO 3166-2:SE,Europe,Northern Europe,,150.0,154.0,,Swedish,60.128161,18.643501
+Switzerland,CH,CHE,756,ISO 3166-2:CH,Europe,Western Europe,,150.0,155.0,,Swiss,46.818188,8.227511999999999
+Syrian Arab Republic,SY,SYR,760,ISO 3166-2:SY,Asia,Western Asia,,142.0,145.0,,Syrian,34.802075,38.996815000000005
+"Taiwan, Province of China",TW,TWN,158,ISO 3166-2:TW,Asia,Eastern Asia,,142.0,30.0,,"Chinese, Taiwanese",23.69781,120.96051499999999
+Tajikistan,TJ,TJK,762,ISO 3166-2:TJ,Asia,Central Asia,,142.0,143.0,,Tajikistani,38.861034000000004,71.276093
+"Tanzania, United Republic of",TZ,TZA,834,ISO 3166-2:TZ,Africa,Sub-Saharan Africa,Eastern Africa,2.0,202.0,14.0,Tanzanian,-6.369028,34.888822
+Thailand,TH,THA,764,ISO 3166-2:TH,Asia,South-eastern Asia,,142.0,35.0,,Thai,15.870032,100.992541
+Timor-Leste,TL,TLS,626,ISO 3166-2:TL,Asia,South-eastern Asia,,142.0,35.0,,Timorese,-8.874217,125.727539
+Togo,TG,TGO,768,ISO 3166-2:TG,Africa,Sub-Saharan Africa,Western Africa,2.0,202.0,11.0,Togolese,8.619543,0.824782
+Tokelau,TK,TKL,772,ISO 3166-2:TK,Oceania,Polynesia,,9.0,61.0,,Tokelauan,-8.967363,-171.855881
+Tonga,TO,TON,776,ISO 3166-2:TO,Oceania,Polynesia,,9.0,61.0,,Tongan,-21.178986,-175.198242
+Trinidad and Tobago,TT,TTO,780,ISO 3166-2:TT,Americas,Latin America and the Caribbean,Caribbean,19.0,419.0,29.0,Trinidadian or Tobagonian,10.691803,-61.222503
+Tunisia,TN,TUN,788,ISO 3166-2:TN,Africa,Northern Africa,,2.0,15.0,,Tunisian,33.886917,9.537499
+Turkey,TR,TUR,792,ISO 3166-2:TR,Asia,Western Asia,,142.0,145.0,,Turkish,38.963745,35.243322
+Turkmenistan,TM,TKM,795,ISO 3166-2:TM,Asia,Central Asia,,142.0,143.0,,Turkmen,38.969719,59.556278000000006
+Turks and Caicos Islands,TC,TCA,796,ISO 3166-2:TC,Americas,Latin America and the Caribbean,Caribbean,19.0,419.0,29.0,Turks and Caicos Island,21.694025,-71.797928
+Tuvalu,TV,TUV,798,ISO 3166-2:TV,Oceania,Polynesia,,9.0,61.0,,Tuvaluan,-7.109535,177.64933
+Uganda,UG,UGA,800,ISO 3166-2:UG,Africa,Sub-Saharan Africa,Eastern Africa,2.0,202.0,14.0,Ugandan,1.373333,32.290275
+Ukraine,UA,UKR,804,ISO 3166-2:UA,Europe,Eastern Europe,,150.0,151.0,,Ukrainian,48.379433,31.16558
+United Arab Emirates,AE,ARE,784,ISO 3166-2:AE,Asia,Western Asia,,142.0,145.0,,"Emirati, Emirian, Emiri",23.424076,53.847818000000004
+United Kingdom of Great Britain and Northern Ireland,GB,GBR,826,ISO 3166-2:GB,Europe,Northern Europe,,150.0,154.0,,"British, UK",55.378051,-3.435973
+United States of America,US,USA,840,ISO 3166-2:US,Americas,Northern America,,19.0,21.0,,American,37.09024,-95.712891
+United States Minor Outlying Islands,UM,UMI,581,ISO 3166-2:UM,Oceania,Micronesia,,9.0,57.0,,American,,
+Uruguay,UY,URY,858,ISO 3166-2:UY,Americas,Latin America and the Caribbean,South America,19.0,419.0,5.0,Uruguayan,-32.522779,-55.765834999999996
+Uzbekistan,UZ,UZB,860,ISO 3166-2:UZ,Asia,Central Asia,,142.0,143.0,,"Uzbekistani, Uzbek",41.377491,64.585262
+Vanuatu,VU,VUT,548,ISO 3166-2:VU,Oceania,Melanesia,,9.0,54.0,,"Ni-Vanuatu, Vanuatuan",-15.376706,166.959158
+Venezuela (Bolivarian Republic of),VE,VEN,862,ISO 3166-2:VE,Americas,Latin America and the Caribbean,South America,19.0,419.0,5.0,Venezuelan,6.42375,-66.58973
+Viet Nam,VN,VNM,704,ISO 3166-2:VN,Asia,South-eastern Asia,,142.0,35.0,,Vietnamese,14.058323999999999,108.277199
+Virgin Islands (British),VG,VGB,92,ISO 3166-2:VG,Americas,Latin America and the Caribbean,Caribbean,19.0,419.0,29.0,British Virgin Island,18.420695000000002,-64.63996800000001
+Virgin Islands (U.S.),VI,VIR,850,ISO 3166-2:VI,Americas,Latin America and the Caribbean,Caribbean,19.0,419.0,29.0,U.S. Virgin Island,18.335765,-64.896335
+Wallis and Futuna,WF,WLF,876,ISO 3166-2:WF,Oceania,Polynesia,,9.0,61.0,,"Wallis and Futuna, Wallisian or Futunan",-13.768752,-177.156097
+Western Sahara,EH,ESH,732,ISO 3166-2:EH,Africa,Northern Africa,,2.0,15.0,,"Sahrawi, Sahrawian, Sahraouian",24.215526999999998,-12.885834
+Yemen,YE,YEM,887,ISO 3166-2:YE,Asia,Western Asia,,142.0,145.0,,Yemeni,15.552726999999999,48.516388
+Zambia,ZM,ZMB,894,ISO 3166-2:ZM,Africa,Sub-Saharan Africa,Eastern Africa,2.0,202.0,14.0,Zambian,-13.133897,27.849332
+Zimbabwe,ZW,ZWE,716,ISO 3166-2:ZW,Africa,Sub-Saharan Africa,Eastern Africa,2.0,202.0,14.0,Zimbabwean,-19.015438,29.154857

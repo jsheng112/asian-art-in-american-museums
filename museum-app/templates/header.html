@@ -1,0 +1,49 @@
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.0/Chart.min.js'></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/main.css') }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', filename='favicon-32x32.png') }}">
+  <title>Asian Art in American Museums</title>
+</head>
+
+<body>
+<div id="all" class="flex-container-col">
+  <nav id="menu-bar" class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="/">Asian Art in American Museums</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="query" >Search</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="visualize">Plots</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="visualize_data">Visualize</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="image">Similar Artwork Finder</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="dataset">Datasets</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about">About</a>
+        </li>
+	      
+      </ul>
+    </div>
+  </nav>
+  <div id="main-pane" class="flex-container-row">
+    
+  </div>
+
+  <div id="result-pane" class="overflow-auto">
